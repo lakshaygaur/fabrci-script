@@ -29,7 +29,7 @@ function sendRequest(url,reqType,reqObj,reqHeaders){
 async function register(){
     for(var i in config.orgs){
         let reqObj = {
-            "username":"Tim3",
+            "username":config.defaultUser,
             "orgName":i
         }
         let response = await sendRequest(config.url+'/users','POST',reqObj,null)
