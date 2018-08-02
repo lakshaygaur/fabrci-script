@@ -1,0 +1,13 @@
+{
+    "url": "http://localhost:4000",
+    "orgs":{
+        "Org1": ["peer0.org1.example.com","peer1.org1.example.com"],
+        "Org2": ["peer0.org2.example.com","peer1.org2.example.com"],
+        "Org3": ["peer0.org3.example.com","peer1.org3.example.com"]
+    },
+    "channelName": "mychannel",
+    "channelConfigPath": "../artifacts/channel/channel.tx",
+    "chaincodeName": "mycc",
+    "chaincodePath": "balance_transfer",
+    "instantiateArgs":[]
+}
